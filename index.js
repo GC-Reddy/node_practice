@@ -2,7 +2,7 @@
 const express = require("express");
 const app = express();
 const assert = require("assert");
-
+console.log("app");
 function calculateDiscount(price, discountPercentage) {
   // Input validation
   assert(typeof price === "number", "Price must be a number");
